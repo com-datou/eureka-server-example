@@ -8,9 +8,15 @@ spring:
   application:
     name: euraka-server
   config:
-    location: http://localhost:8088
+    location: http://localhost:8088/config
     
 eureka:
   client:
       service-url:
-          defaultZone: http://localhost:8761/eureka/
+          defaultZone: http://localhost:8761/eureka/server/eureka
+  instance:
+    health-check-url: 
+    home-page-url: 
+    health-check-url-path: 
+    home-page-url-path: 
+    hostname: 
