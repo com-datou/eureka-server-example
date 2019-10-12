@@ -8,7 +8,7 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.datou</groupId>
+	<groupId>com.datou.eureka.server</groupId>
 	<artifactId>eureka-server-example</artifactId>
 	<version>0.0.1</version>
 	<name>eureka-server-example</name>
