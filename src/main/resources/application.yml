@@ -2,7 +2,7 @@ server:
   servlet:
     application-display-name: euraka-server
   port: 8761
-
+  
 spring:
   cloud:
     discovery:
